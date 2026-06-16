@@ -122,4 +122,43 @@ func main() {
 
 	// fmt.Println(num)
 
+
+	// * Implicit Assignment
+
+	implicit := "A"   // Majorly used when we initialized the variable
+
+	fmt.Printf("%T", implicit)
+
+	// var number int32
+
+	// number = 10
+
+	// fmt.Println("\n", number)
+
+	fmt.Println("")
+	// * Type Casting
+	number := uint(10) 
+	
+	// ? "%T" will return the type
+	fmt.Printf("%T", number)
+	
+	fname := "Sarthak"
+	lname := "Kamble"
+	designation := "Software Engineer"
+
+	// ? "%v" is basically accessing the value 
+	fmt.Printf("\nHello I am %v %v I am a %v\n", fname, lname, designation)
+
+	// ? "%b" is used to display binary representation 
+	num2 := 14
+
+	fmt.Printf("%b", num2)
+
+	fmt.Println("")
+	// ? "%e" is used to display the scientific notation
+	num3 := 14524.24434
+
+	fmt.Printf("%e", num3)
+
+
 }
